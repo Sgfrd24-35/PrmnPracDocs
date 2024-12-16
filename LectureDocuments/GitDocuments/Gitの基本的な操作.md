@@ -90,7 +90,7 @@ Gitはバージョン管理のためのシステムであり、GitHubはそれ�
 
 - gitの操作の流れ
 
-![Untitled](../../LectureImages/GitImages/git_operation_flow_image.png)
+![Untitled](../../LectureImages/GitImages/git_operation_flow_image.png)  
 
 上記のフローをgit用語(コマンド)と一緒に理解しよう！
 
@@ -117,7 +117,7 @@ Gitはバージョン管理のためのシステムであり、GitHubはそれ�
 
 詳しい操作は、以下の画像でまとめてあります。
 
-![Untitled](../../LectureImages/GitImages/git_local_repo_image.png)
+![Untitled](../../LectureImages/GitImages/git_local_repo_image.png)  
 
 ```
 $ git reset
@@ -167,7 +167,7 @@ $ git pull
 
 リモートリポジトリからワークツリーに一気に変更を反映
 
-![Untitled](../../LectureImages/GitImages/git_remote_repo_image.png)
+![Untitled](../../LectureImages/GitImages/git_remote_repo_image.png)  
 
 ## ブランチの操作について
 
@@ -177,7 +177,7 @@ $ git pull
 
 まずは、これまでの操作を一つにまとめたものを以下に示します。
 
-![Untitled](../../LectureImages/GitImages/git_both_repos_image.png)
+![Untitled](../../LectureImages/GitImages/git_both_repos_image.png)  
 
 これを見ると、木構造が何か全くわからないかと思います。
 これは、木構造において、各枝における操作に注目してきたからです。
@@ -198,7 +198,7 @@ $ git pull
 $ git branch hogehoge
 ```
 
-![Untitled](../../LectureImages/GitImages/git_branch_image.png)
+![Untitled](../../LectureImages/GitImages/git_branch_image.png)  
 
 作業中のブランチを「**HEAD**」と呼びます。
 
@@ -221,7 +221,7 @@ $ git branch hogehoge
 
 git rebase もやってみたいという人は、ここでは触れないので自分で調べてみてください。
 
-![Untitled](../../LectureImages/GitImages/git_merage_image.png)
+![Untitled](../../LectureImages/GitImages/git_merage_image.png)  
 
 **注意**  
 同じ箇所の編集同士をマージしようとしてもgitではどちらが正しいかを判断できないため、**コンフリクト**が起きます。  
@@ -235,7 +235,7 @@ git rebase もやってみたいという人は、ここでは触れないので
 
 どちらを使っても大丈夫です。開発チームに通じる方を使いましょう。  
 
-![Untitled](../../LectureImages/GitImages/git_checkout_image.png)
+![Untitled](../../LectureImages/GitImages/git_checkout_image.png)  
 
 
 # 参考資料
