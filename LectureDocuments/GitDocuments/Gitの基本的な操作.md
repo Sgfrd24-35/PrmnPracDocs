@@ -84,7 +84,6 @@ usernameはハンドルネームで別にいいと思います。
 ![image](../../LectureImages/GitImages/git_hub_new_repo_1_image.png)
 
 3. リポジトリの作成
-
 Repository nameに「PrmnPrac20XX」とだけ書いて、ボタン「Create repository」を押してください。
 （Repository nameは任意です。年度に合わせて、XXの部分を変えてください。また、設定いろいろ知っている方は自由に設定をいじってください。）
 ![image](../../LectureImages/GitImages/git_hub_new_repo_2_image.png)
