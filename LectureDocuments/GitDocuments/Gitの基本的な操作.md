@@ -80,7 +80,7 @@ Gitはバージョン管理のためのシステムであり、GitHubはそれ�
 
 - gitの操作の流れ
 
-![Untitled](LectureImages\GitImages\git_operation_flow_image.png)
+![Untitled](../../LectureImages/GitImages/git_operation_flow_image.png)
 
 上記のフローをgit用語(コマンド)と一緒に理解しよう！
 
@@ -107,7 +107,7 @@ Gitはバージョン管理のためのシステムであり、GitHubはそれ�
 
 詳しい操作は、以下の画像でまとめてあります。
 
-![Untitled](LectureImages\GitImages\git_local_repo_image.png)
+![Untitled](../../LectureImages/GitImages/git_local_repo_image.png)
 
 ```
 $ git reset
@@ -157,13 +157,13 @@ $ git pull
 
 リモートリポジトリからワークツリーに一気に変更を反映
 
-![Untitled](LectureImages\GitImages\git_remote_repo_image.png)
+![Untitled](../../LectureImages/GitImages/git_remote_repo_image.png)
 
 ### まとめ
 
 以上の操作を一枚にまとめると・・・
 
-![Untitled](LectureImages\GitImages\git_both_repos_image.png)
+![Untitled](../../LectureImages/GitImages/git_both_repos_image.png)
 
 ### 次にブランチのついての説明をします。
 
