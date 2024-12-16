@@ -24,9 +24,15 @@ tags: []
   - Discordで質問等するときはメンターをメンションして聞いてください
 
 ### Githubの準備
-以下はGithubアカウントがあることを想定して進めます
-- Windowsの人は[GitBashのダウンロード](https://gitforwindows.org/)
-Macの人はターミナルで git config でユーザ登録を行なっていない人は以下のコマンドから登録する
+
+以下はGit Hub アカウントがあることを想定して進めます。
+
+Windowsの人は、[GitBashのダウンロード](https://gitforwindows.org/)をして、ユーザ登録を行なっていない人は以下のコマンドから登録する。
+
+Macの人は、、ターミナルを使用して、ユーザ登録を行なっていない人は以下のコマンドから登録する
+
+※ 大体の人は、ユーザ登録を行っていないはずです。
+
 ```
 $ cd
 $ git config --global user.name [GitHubに登録したユーザ名]
