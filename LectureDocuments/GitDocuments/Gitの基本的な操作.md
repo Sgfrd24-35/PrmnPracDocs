@@ -195,10 +195,10 @@ Macの方はこちら[Progateの記事](https://bit.ly/42wU6Ke) を参考にし�
    - SSHが使えない環境でのリモートアクセス。
    - APIを利用してリモートリポジトリを操作する場合。
    - 限定的な権限を与えるためのセキュリティ対策。  
-   [こちら](https://docs.github.com/ja/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) のGitHub公式ページを参考に、トークンを発行してください。
-   ** トークンは一度しか表示されない ** ようなので、十分に注意してください。
-   [こちら](https://scrapbox.io/Prmn2023/Git%E3%83%88%E3%83%BC%E3%82%AF%E3%83%B3%E8%AA%8D%E8%A8%BC) の記事にトークン認証について、書いてあるので、参考にしてください。
-   また、[こちら](https://scrapbox.io/Prmn2023/Git%E5%B0%8E%E5%85%A5) にも書いて場所があるので、必要であれば参考にしてください。   
+[こちら](https://docs.github.com/ja/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) のGitHub公式ページを参考に、トークンを発行してください。
+** トークンは一度しか表示されない ** ようなので、十分に注意してください。
+[こちら](https://scrapbox.io/Prmn2023/Git%E3%83%88%E3%83%BC%E3%82%AF%E3%83%B3%E8%AA%8D%E8%A8%BC) の記事にトークン認証について、書いてあるので、参考にしてください。
+また、[こちら](https://scrapbox.io/Prmn2023/Git%E5%B0%8E%E5%85%A5) にも書いて場所があるので、必要であれば参考にしてください。   
 
 # 3. Git 操作について
 
