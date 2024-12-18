@@ -201,7 +201,7 @@ Macの方はこちら[Progateの記事](https://bit.ly/42wU6Ke) を参考にし�
 
   ![image](../../LectureImages/GitImages/git_install_5_image.png)
 
-- Visual Studio Code（[こちら https://bit.ly/456rZDX]の記事など参考になります）を使っている方であっても、デフォルトのままでいいと思います。
+- Visual Studio Code（[こちら](https://bit.ly/456rZDX) の記事など参考になります）を使っている方であっても、デフォルトのままでいいと思います。
 
 8. 新規リポジトリのデフォルトブランチ名の設定
 
