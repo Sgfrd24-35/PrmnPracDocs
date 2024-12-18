@@ -172,97 +172,100 @@ Macの方はこちら[Progateの記事](https://bit.ly/42wU6Ke) を参考にし�
 
   ![image](../../LectureImages/GitImages/git_install_1_image.png)
 
-1. インストール先を選択
+4. インストール先を選択
 
-デフォルトのまま。
+  デフォルトのまま。
 
-![image](../../LectureImages/GitImages/git_install_2_image.png)
+  ![image](../../LectureImages/GitImages/git_install_2_image.png)
 
 5. インストールコンポーネントの選択
 
-一番物議をかもした箇所です。
+  一番物議をかもした箇所です。
 
-![image](../../LectureImages/GitImages/git_install_3_image.png)
+  ![image](../../LectureImages/GitImages/git_install_3_image.png)
 
 ＜おそらくデフォルトとは変わった場所＞
 -  [* <Additonal icons> ]( [* <On the Desktop>]) はデフォルトではチェック入っていなかったと思いますが、デスクトップにGitのショートカットとアイコンを追加したい方はチェック入れてください。（使いやすさを考えると、入れたほうがいい？）
 -  [* <Windows Explorer integration>] はチェック非推奨とします。使いどころがよく分かっていない。
 -  [* <(NEW!) Add a Git Bash Profile to Windows Terminal>]  は、Windows Terminal をインストールした方は入れていただいてもいいと思います。使いやすくなるはずです。
+
 6. スタートメニューへの登録
 
-デフォルトのまま。
+  デフォルトのまま。
 
-![image](../../LectureImages/GitImages/git_install_4_image.png)
+  ![image](../../LectureImages/GitImages/git_install_4_image.png)
 
 7. エディタの設定
 
-デフォルトのまま。
+  デフォルトのまま。
 
-![image](../../LectureImages/GitImages/git_install_5_image.png)
+  ![image](../../LectureImages/GitImages/git_install_5_image.png)
 
 - Visual Studio Code（[こちら https://bit.ly/456rZDX]の記事など参考になります）を使っている方であっても、デフォルトのままでいいと思います。
 
 8. 新規リポジトリのデフォルトブランチ名の設定
 
-デフォルトのまま。
+  デフォルトのまま。
 
-![image](../../LectureImages/GitImages/git_install_6_image.png)
+  ![image](../../LectureImages/GitImages/git_install_6_image.png)
 
 9. 環境変数の設定
 
-デフォルトのまま。
+  デフォルトのまま。
 
-![image](../../LectureImages/GitImages/git_install_7_image.png)
+  ![image](../../LectureImages/GitImages/git_install_7_image.png)
 
 10. SSLライブラリの選択
 
-デフォルトのまま。
+  デフォルトのまま。
 
-![image](../../LectureImages/GitImages/git_install_8_image.png)
+  ![image](../../LectureImages/GitImages/git_install_8_image.png)
 
 11. HTTPSライブラリの選択
 
-デフォルトのまま。
+  デフォルトのまま。
 
-![image](../../LectureImages/GitImages/git_install_9_image.png)
+  ![image](../../LectureImages/GitImages/git_install_9_image.png)
 
 12. 改行コードの取り扱いを選択
 
-迷いどころだが、デフォルトのまま。
+  迷いどころだが、デフォルトのまま。
 
-![image](../../LectureImages/GitImages/git_install_10_image.png)
+  ![image](../../LectureImages/GitImages/git_install_10_image.png)
 
 13. Git Bashで利用するターミナルを選択
 
-結構迷いどころ。Windowsなので下を選択してみた（問題なく使えています）が、デフォルト通り上を選択したほうがいい気もする。
+  結構迷いどころ。Windowsなので下を選択してみた（問題なく使えています）が、デフォルト通り上を選択したほうがいい気もする。
 
-![image](../../LectureImages/GitImages/git_install_11_image.png)
+  ![image](../../LectureImages/GitImages/git_install_11_image.png)
 
 14. git pullの設定
 
-デフォルトのまま。
+  デフォルトのまま。
 
-![image](../../LectureImages/GitImages/git_install_12_image.png)
+  ![image](../../LectureImages/GitImages/git_install_12_image.png)
 
 15. 認証情報ヘルパーの設定
-デフォルトのまま。
 
-![image](../../LectureImages/GitImages/git_install_13_image.png)
+  デフォルトのまま。
+
+  ![image](../../LectureImages/GitImages/git_install_13_image.png)
 
 16. 追加オプションの設定
-デフォルトのまま。
 
-![image](../../LectureImages/GitImages/git_install_14_image.png)
+  デフォルトのまま。
+
+  ![image](../../LectureImages/GitImages/git_install_14_image.png)
 
 17. 試験運用中のオプションの設定
-デフォルトのまま。
+  デフォルトのまま。
 
-![image](../../LectureImages/GitImages/git_install_15_image.png)
+  ![image](../../LectureImages/GitImages/git_install_15_image.png)
 
 18. インストールの実行
-では、実行しましょう！
+  では、実行しましょう！
 
-![image](../../LectureImages/GitImages/git_install_16_image.png)
+  ![image](../../LectureImages/GitImages/git_install_16_image.png)
 
 - インストールコンポーネントの選択画面([Gitインストール#64633721e3c99c0000af191f])で[* <Additonal icons>] にチェックを入れた方は、以下のようなGitBashアイコンがデスクトップ上に表示されたのではないでしょうか。
 
@@ -280,17 +283,25 @@ Macの方はこちら[Progateの記事](https://bit.ly/42wU6Ke) を参考にし�
     git config --global user.email GitHubに登録したメールアドレス
     ```
 ### 4. トークン認証について
+
    トークン認証は以下のような場合に行います。
+
    適宜、必要であれば行ってください。
+
    必要なさそうであれば、飛ばしてください。
+
    - HTTPS認証の代替手段として（パスワード廃止後の推奨手段）。
    - CI/CDパイプラインやスクリプトでの自動操作。
    - SSHが使えない環境でのリモートアクセス。
    - APIを利用してリモートリポジトリを操作する場合。
    - 限定的な権限を与えるためのセキュリティ対策。  
+
 [こちら](https://docs.github.com/ja/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) のGitHub公式ページを参考に、トークンを発行してください。
+
 ** トークンは一度しか表示されない ** ようなので、十分に注意してください。
+
 [こちら](https://scrapbox.io/Prmn2023/Git%E3%83%88%E3%83%BC%E3%82%AF%E3%83%B3%E8%AA%8D%E8%A8%BC) の記事にトークン認証について、書いてあるので、参考にしてください。
+
 また、[こちら](https://scrapbox.io/Prmn2023/Git%E5%B0%8E%E5%85%A5) にも書いて場所があるので、必要であれば参考にしてください。   
 
 # 3. Git 操作について
