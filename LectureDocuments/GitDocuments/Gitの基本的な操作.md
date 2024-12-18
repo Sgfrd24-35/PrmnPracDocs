@@ -169,12 +169,9 @@ Macの方はこちら[Progateの記事](https://bit.ly/42wU6Ke) を参考にし�
 2.  ダウンロードしたexeを実行してください。
 
 3.  ライセンス確認
-
-  そのままGO！
-
 ![image](../../LectureImages/GitImages/git_install_1_image.png)
 
-4. インストール先を選択
+1. インストール先を選択
 
 デフォルトのまま。
 
