@@ -102,6 +102,7 @@
 ## まとめ
 
 Gitはバージョン管理のためのシステムであり、GitHubはそれを共有・管理するためのオンラインプラットフォームです。
+
 両方を組み合わせることで、効率的なソフトウェア開発が可能になります！
 
 
@@ -110,23 +111,33 @@ Gitはバージョン管理のためのシステムであり、GitHubはそれ�
 ## Git Hub の準備
 
 1. GitHubのサインアップ
+
 [こちら](https://github.co.jp/) のページからサインアップしてください。
+
 登録したemailとusernameはこれからずっと使うことになるので、慎重に登録してください。
+
 （後から変更できます。忘れないようにしましょう。）
+
 usernameはハンドルネームで別にいいと思います。
 
 
 2. Git Hub へのサインイン
+
 [こちら](https://github.com/)にアクセスし、"New"というボタンを押します。
+
 ![image](../../LectureImages/GitImages/git_hub_new_repo_1_image.png)
 
 3. リポジトリの作成
+
 Repository nameに「PrmnPrac20XX」とだけ書いて、ボタン「Create repository」を押してください。  
+
 （Repository nameは任意です。年度に合わせて、XXの部分を変えてください。また、設定いろいろ知っている方は自由に設定をいじってください。）  
+
 ![image](../../LectureImages/GitImages/git_hub_new_repo_2_image.png)
 
 
 以下のようなページに遷移するでしょうか。
+
 ![image](../../LectureImages/GitImages/git_hub_new_repo_3_image.png)
 
 「…or create a new repository on the command line」にある Git コマンドをこの後打っていくことになります。  
@@ -138,7 +149,9 @@ Repository nameに「PrmnPrac20XX」とだけ書いて、ボタン「Create repo
 必要であれば、適宜参考にしてください。
 
 ### 1. Git インストールに必要な環境構築
+
 Windowsの方は[こちら](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=ja-jp&gl=jp&icid=CNavAppsWindowsApps) の Microsoft Store のページから **Windows Terminal** をインストールしてください。
+
 Windows Terminal のタブ上には「+」と「v」があります。「v」を押して使いたいTermianlを選択しましょう。
 
 Macの方はこちら[Progateの記事](https://bit.ly/42wU6Ke) を参考にしていただければと思いますが、Terminal は標準でインストールされているようです。
@@ -154,17 +167,21 @@ Macの方はこちら[Progateの記事](https://bit.ly/42wU6Ke) を参考にし�
 1. [記事](https://www.curict.com/item/60/60bfe0e.html) に従って [Git for Windows](https://gitforwindows.org/) をダウンロードしてください。ここは省略します。
 
 2.  ダウンロードしたexeを実行してください。
+
 3.  ライセンス確認
+
 そのままGO！
 
 ![image](../../LectureImages/GitImages/git_install_1_image.png)
 
 4. インストール先を選択
+
 デフォルトのまま。
 
 ![image](../../LectureImages/GitImages/git_install_2_image.png)
 
 5. インストールコンポーネントの選択
+
 一番物議をかもした箇所です。
 
 ![image](../../LectureImages/GitImages/git_install_3_image.png)
@@ -174,11 +191,13 @@ Macの方はこちら[Progateの記事](https://bit.ly/42wU6Ke) を参考にし�
 -  [* <Windows Explorer integration>] はチェック非推奨とします。使いどころがよく分かっていない。
 -  [* <(NEW!) Add a Git Bash Profile to Windows Terminal>]  は、Windows Terminal をインストールした方は入れていただいてもいいと思います。使いやすくなるはずです。
 6. スタートメニューへの登録
+
 デフォルトのまま。
 
 ![image](../../LectureImages/GitImages/git_install_4_image.png)
 
 7. エディタの設定
+
 デフォルトのまま。
 
 ![image](../../LectureImages/GitImages/git_install_5_image.png)
@@ -186,36 +205,43 @@ Macの方はこちら[Progateの記事](https://bit.ly/42wU6Ke) を参考にし�
 - Visual Studio Code（[こちら https://bit.ly/456rZDX]の記事など参考になります）を使っている方であっても、デフォルトのままでいいと思います。
 
 8. 新規リポジトリのデフォルトブランチ名の設定
+
 デフォルトのまま。
 
 ![image](../../LectureImages/GitImages/git_install_6_image.png)
 
 9. 環境変数の設定
+
 デフォルトのまま。
 
 ![image](../../LectureImages/GitImages/git_install_7_image.png)
 
 10. SSLライブラリの選択
+
 デフォルトのまま。
 
 ![image](../../LectureImages/GitImages/git_install_8_image.png)
 
 11. HTTPSライブラリの選択
+
 デフォルトのまま。
 
 ![image](../../LectureImages/GitImages/git_install_9_image.png)
 
 12. 改行コードの取り扱いを選択
+
 迷いどころだが、デフォルトのまま。
 
 ![image](../../LectureImages/GitImages/git_install_10_image.png)
 
 13. Git Bashで利用するターミナルを選択
+
 結構迷いどころ。Windowsなので下を選択してみた（問題なく使えています）が、デフォルト通り上を選択したほうがいい気もする。
 
 ![image](../../LectureImages/GitImages/git_install_11_image.png)
 
 14. git pullの設定
+
 デフォルトのまま。
 
 ![image](../../LectureImages/GitImages/git_install_12_image.png)
