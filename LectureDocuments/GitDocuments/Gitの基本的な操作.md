@@ -110,7 +110,7 @@ Gitはバージョン管理のためのシステムであり、GitHubはそれ�
 
 ## Git Hub の準備
 
-1. GitHubのサインアップ
+### 1. GitHubのサインアップ
 
 [こちら](https://github.co.jp/) のページからサインアップしてください。
 
@@ -121,13 +121,13 @@ Gitはバージョン管理のためのシステムであり、GitHubはそれ�
 usernameはハンドルネームで別にいいと思います。
 
 
-2. Git Hub へのサインイン
+### 2. Git Hub へのサインイン
 
 [こちら](https://github.com/)にアクセスし、"New"というボタンを押します。
 
 ![image](../../LectureImages/GitImages/git_hub_new_repo_1_image.png)
 
-3. リポジトリの作成
+### 3. リポジトリの作成
 
 Repository nameに「PrmnPrac20XX」とだけ書いて、ボタン「Create repository」を押してください。  
 
