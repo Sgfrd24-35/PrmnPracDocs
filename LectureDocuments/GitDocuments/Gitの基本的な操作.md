@@ -170,7 +170,7 @@ Macの方はこちら[Progateの記事](https://bit.ly/42wU6Ke) を参考にし�
 
 3.  ライセンス確認
 
-そのままGO！
+  そのままGO！
 
 ![image](../../LectureImages/GitImages/git_install_1_image.png)
 
