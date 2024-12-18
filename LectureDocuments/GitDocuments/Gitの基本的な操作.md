@@ -14,20 +14,27 @@
 # 1. Git と Git Hub について
 
 複数人でプロジェクトを管理するにあたり、便利なものがあります。
+
 それが、Git と Git Hub です。
+
 これらは、プロジェクトを時系列的に木構造でプロジェクトを管理できるようにします。
-詳しくは、次以降で述べます。
+
+詳しくは、次以降で述べます。  
 
 ## **Git** とは？
+
 **Git**（ギット）は、分散型バージョン管理システムです。
 
 ### **特徴**
 - **バージョン管理**  
   ソースコードやファイルの変更履歴を記録し、いつでも過去のバージョンに戻せる仕組みです。
+
 - **分散型**  
   リポジトリ（コードや変更履歴を保存する場所）を複数のコンピュータに分散して管理できます。
+
 - **ローカル操作**  
   ネットワークに接続しなくても、ローカルでほとんどの操作が可能です。
+
 - **軽量**  
   差分管理が効率的に行われ、変更履歴のデータサイズが小さく保たれます。
 
@@ -131,7 +138,7 @@ Repository nameに「PrmnPrac20XX」とだけ書いて、ボタン「Create repo
 必要であれば、適宜参考にしてください。
 
 ### 1. Git インストールに必要な環境構築
-Windowsの方は[こちら](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=ja-jp&gl=jp&icid=CNavAppsWindowsApps) の Microsoft Store のページから ** Windows Terminal ** をインストールしてください。
+Windowsの方は[こちら](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=ja-jp&gl=jp&icid=CNavAppsWindowsApps) の Microsoft Store のページから **Windows Terminal** をインストールしてください。
 Windows Terminal のタブ上には「+」と「v」があります。「v」を押して使いたいTermianlを選択しましょう。
 
 Macの方はこちら[Progateの記事](https://bit.ly/42wU6Ke) を参考にしていただければと思いますが、Terminal は標準でインストールされているようです。
@@ -149,59 +156,75 @@ Macの方はこちら[Progateの記事](https://bit.ly/42wU6Ke) を参考にし�
    2.  ダウンロードしたexeを実行してください。
    3.  ライセンス確認
    そのままGO！
-   [https://scrapbox.io/files/64633888bfd1ae001bce5ea5.png]
+   ![image](../../LectureImages/GitImages/git_install_1_image.png)
+   
    4. インストール先を選択
    デフォルトのまま。
-   [https://scrapbox.io/files/646338bb837321001ba42210.png]
+   ![image](../../LectureImages/GitImages/git_install_2_image.png)
+   
    5. インストールコンポーネントの選択
     一番物議をかもした箇所です。
-    [https://scrapbox.io/files/646338eff925f9001c036513.png]
+   
+   ![image](../../LectureImages/GitImages/git_install_3_image.png)
+
     ＜おそらくデフォルトとは変わった場所＞
     -  [* <Additonal icons> ]( [* <On the Desktop>]) はデフォルトではチェック入っていなかったと思いますが、デスクトップにGitのショートカットとアイコンを追加したい方はチェック入れてください。（使いやすさを考えると、入れたほうがいい？）
     -  [* <Windows Explorer integration>] はチェック非推奨とします。使いどころがよく分かっていない。
     -  [* <(NEW!) Add a Git Bash Profile to Windows Terminal>]  は、Windows Terminal をインストールした方は入れていただいてもいいと思います。使いやすくなるはずです。
    6. スタートメニューへの登録
    デフォルトのまま。
-   [https://scrapbox.io/files/64633b4dd7f6a8001bd3c001.png]
+   ![image](../../LectureImages/GitImages/git_install_4_image.png)
+
    7. エディタの設定
     デフォルトのまま。
-    [https://scrapbox.io/files/64633ba1c0476d001b955243.png]
+    ![image](../../LectureImages/GitImages/git_install_5_image.png)
+
     - Visual Studio Code（[こちら https://bit.ly/456rZDX]の記事など参考になります）を使っている方であっても、デフォルトのままでいいと思います。
+   
    8. 新規リポジトリのデフォルトブランチ名の設定
     デフォルトのまま。
-   [https://scrapbox.io/files/64633c375324e9001b217a27.png]
+   ![image](../../LectureImages/GitImages/git_install_6_image.png)
+   
    9. 環境変数の設定
     デフォルトのまま。
-   [https://scrapbox.io/files/64633c67c107c8001ca71189.png]
+   ![image](../../LectureImages/GitImages/git_install_7_image.png)
+   
    10. SSLライブラリの選択
     デフォルトのまま。
-   [https://scrapbox.io/files/64633cc57f35a5001bed5554.png]
+   ![image](../../LectureImages/GitImages/git_install_8_image.png)
+   
    11. HTTPSライブラリの選択
     デフォルトのまま。
-   [https://scrapbox.io/files/64633d100309ad001c1e52a8.png]
+   ![image](../../LectureImages/GitImages/git_install_9_image.png)
+
    12. 改行コードの取り扱いを選択
     迷いどころだが、デフォルトのまま。
-   [https://scrapbox.io/files/64633d5b837321001ba4a123.png]
+   ![image](../../LectureImages/GitImages/git_install_10_image.png)
+
    13. Git Bashで利用するターミナルを選択
     結構迷いどころ。Windowsなので下を選択してみた（問題なく使えています）が、デフォルト通り上を選択したほうがいい気もする。
-   [https://scrapbox.io/files/64633e115324e9001b21a214.png]
+   ![image](../../LectureImages/GitImages/git_install_11_image.png)
+
    14. git pullの設定
     デフォルトのまま。
-   [https://scrapbox.io/files/64633ecb68ccea001bde6226.png]
+   ![image](../../LectureImages/GitImages/git_install_12_image.png)
+   
    15. 認証情報ヘルパーの設定
     デフォルトのまま。
-   [https://scrapbox.io/files/64633f59de5fd5001b29200f.png]
+   ![image](../../LectureImages/GitImages/git_install_13_image.png)
+
    16. 追加オプションの設定
     デフォルトのまま。
-   [https://scrapbox.io/files/64633fe2f35673001c4dbe27.png]
+   ![image](../../LectureImages/GitImages/git_install_14_image.png)
+
    17. 試験運用中のオプションの設定
     デフォルトのまま。
-   [https://scrapbox.io/files/64633ffd1c863f001b7c8d84.png]
+   ![image](../../LectureImages/GitImages/git_install_15_image.png)
+   
    18. インストールの実行
     では、実行しましょう！
-   [https://scrapbox.io/files/64634020ce20c7001b7c2fdc.png]
+    ![image](../../LectureImages/GitImages/git_install_16_image.png)
        - インストールコンポーネントの選択画面([Gitインストール#64633721e3c99c0000af191f])で[* <Additonal icons>] にチェックを入れた方は、以下のようなGitBashアイコンがデスクトップ上に表示されたのではないでしょうか。
-   [https://scrapbox.io/files/646340be98b211001b8b616d.png]
 
 
 ### 3. 動作確認
